@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> fuujiro's island</title><meta name="description" content="A Blog Powered By Hexo"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://fuujiro.github.io/atom.xml" title="fuujiro's island"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link active">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="https://github.com/fuujiro" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="http://zhihu.com/people/fuujiro" target="_blank" class="nav-list-link">ZHIHU</a></li><li class="nav-list-item"><a href="/about" target="_self" class="nav-list-link">ABOUT</a></li></ul></header><main class="container"><ul class="home post-list"><li class="post-list-item"><article class="post-block"><h2 class="post-title"><a href="/2018/02/14/使用Hexo框架-Apollo主题搭建博客/" class="post-title-link">使用Hexo框架+Apollo主题搭建博客</a></h2><div class="post-info">Feb 14, 2018</div><div class="post-content"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>时间过得贼快啊！我一下子就要大二下学期了！想着自己以后大概率就是一名老实的程序员。按着这个程序猿们的习惯啊，一般都会有个自己的博客，也不论是追求技术还是跟风吧，我脑子一热呢，就准备搭一个自己的Blog。</p>
+<p>脑子热的时候是2月11号晚上，然后既然热了，那就行动呗。先google了一下个人博客的主流框架和搭建入门咯。最后还是放弃了Wordpress，选择了Hexo来搭建，原因是Hexo开源，主题选择丰富，emmmm就酱。关于为啥选择apollo主题呢，主要是有天瞎逛时，误入了<a href="https://blog.phoenixlzx.com" target="_blank" rel="noopener">phoenixlzx巨巨的blog</a>，他用的就是Apollo主题。我定睛一看，这就是我想要的<del>滑板鞋</del>主题！</p>
+<p><a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="noopener">Apollo</a>主题的<a href="https://github.com/pinggod" target="_blank" rel="noopener">开发者</a>据说是一位92年的小哥哥，开发Apollo的时候在美团前端任职，现在根据他的GitHub主页应该是在Alipay工作了。我选择Apollo主题的原因是因为它风格简约，我觉得浏览时加载体验比博客华丽的外观会重要很多，你想想等加载是很烦躁的一件事（嗯，至少来说我是这样…），何况Apollo还简约得好看一匹，果断Mark。如下图。</p>
+<p><img src="https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png" alt="hexo-apollo"></p>
+<p>嗯！真的很耐看！清新，简约，Nice！</p>
+<p>既然选择好了框架+主题，就进入正式阶段（以下一切安装代码，在OS X无问题，Windows可能会要稍作修改）。</p>
+<h3 id="1-安装Hexo"><a href="#1-安装Hexo" class="headerlink" title="1. 安装Hexo"></a>1. 安装Hexo</h3><p>因为Hexo是一款基于Node.js的静态博客框架，生成静态网页托管在GitHub。所以我们在安装Hexo前得先装上Node.js和git。</p>
+<h4 id="1-1-安装Node-js"><a href="#1-1-安装Node-js" class="headerlink" title="1.1 安装Node.js"></a>1.1 安装Node.js</h4></div><a href="/2018/02/14/使用Hexo框架-Apollo主题搭建博客/" class="read-more">...more</a></article></li><li class="post-list-item"><article class="post-block"><h2 class="post-title"><a href="/2018/02/14/Markdown简单语法入门/" class="post-title-link">Markdown简单语法入门</a></h2><div class="post-info">Feb 14, 2018</div><div class="post-content"><hr>
+<p>我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，<strong>Cmd Markdown</strong> 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：</p>
+<blockquote>
+<ul>
+<li>整理知识，学习笔记</li>
+<li>发布日记，杂文，所见所想</li>
+<li>撰写发布技术文稿（代码支持）</li>
+<li>撰写发布学术论文（LaTeX 公式支持）</li>
+</ul>
+</blockquote>
+<p><img src="https://www.zybuluo.com/static/img/logo.png" alt="cmd-markdown-logo"></p>
+<p>除了您现在看到的这个 Cmd Markdown 在线版本，您还可以前往以下网址下载：</p>
+<h3 id="Windows-Mac-Linux-全平台客户端"><a href="#Windows-Mac-Linux-全平台客户端" class="headerlink" title="Windows/Mac/Linux 全平台客户端"></a><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="noopener">Windows/Mac/Linux 全平台客户端</a></h3><blockquote>
+<p>请保留此份 Cmd Markdown 的欢迎稿兼使用说明，如需撰写新稿件，点击顶部工具栏右侧的 <i class="icon-file"></i> <strong>新文稿</strong> 或者使用快捷键 <code>Ctrl+Alt+N</code>。</p>
+</blockquote>
+<hr>
+<h2 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown"></a>什么是 Markdown</h2><p>Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong> 或者 <em>斜体</em> 某些文字，更棒的是，它还可以</p></div><a href="/2018/02/14/Markdown简单语法入门/" class="read-more">...more</a></article></li></ul></main><footer><div class="paginator"></div><div class="copyright"><p>© 2017 - 2018 <a href="http://fuujiro.github.io">fuujiro</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
